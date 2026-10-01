@@ -56,7 +56,7 @@ Log in on the VM console, then connect from the Windows host for easier copy/pas
 
 ```bash
 ssh wazuh-server@ip-addr
-
+```
 
 ### 2. Update the system
 
