@@ -35,7 +35,7 @@ In an **All-in-One** deployment, the server, indexer, and dashboard run on a sin
 | Hypervisor | VMware Workstation |
 | OS | Ubuntu 24.04.5 LTS |
 | Hostname | `wazuh-server` |
-| IP address | `192.168.29.131` |
+| IP address | `@@@@@@@` |
 | Resources | 2 vCPU / 4 GB RAM / 100 GB disk |
 
 ## Ports
@@ -55,8 +55,7 @@ In an **All-in-One** deployment, the server, indexer, and dashboard run on a sin
 Log in on the VM console, then connect from the Windows host for easier copy/paste:
 
 ```bash
-ssh wazuh-server@192.168.29.131
-```
+ssh wazuh-server@ip-addr
 
 
 ### 2. Update the system
@@ -94,7 +93,7 @@ Without root, extraction and `cd` fail with `Permission denied`.
 
 ### 5. Access the dashboard
 
-Open `https://192.168.29.131` in a browser (accept the self-signed certificate warning) and log in as `admin` with the password from `wazuh-passwords.txt`.
+Open `https://ip-addr` in a browser (accept the self-signed certificate warning) and log in as `admin` with the password from `wazuh-passwords.txt`.
 
 
 ## Post-Installation Configuration
